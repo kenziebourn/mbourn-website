@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Portfolio />
       <Skills />
       <Contact />
+      <Footer />
       <SocialLinks />
       </div>
     </div>
