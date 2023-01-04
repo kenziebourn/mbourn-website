@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mbourn-website/static/css/main.48bf23fd.css",
+    "main.js": "/mbourn-website/static/js/main.5dbb5807.js",
+    "static/media/mancala.png": "/mbourn-website/static/media/mancala.209a2f6e54b098d4ccd4.png",
+    "static/media/valet.png": "/mbourn-website/static/media/valet.6672d497f8b32c4a7609.png",
+    "static/media/ecommerce.png": "/mbourn-website/static/media/ecommerce.9e493b55e980953a02fc.png",
+    "static/media/postgresql.png": "/mbourn-website/static/media/postgresql.c8891cc79d21bc263a06.png",
+    "static/media/mlogo.png": "/mbourn-website/static/media/mlogo.57685d846291c9d365f0.png",
+    "static/media/react.png": "/mbourn-website/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/mbourn-website/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/mbourn-website/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/mbourn-website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/mbourn-website/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/mbourn-website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/mbourn-website/index.html",
+    "main.48bf23fd.css.map": "/mbourn-website/static/css/main.48bf23fd.css.map",
+    "main.5dbb5807.js.map": "/mbourn-website/static/js/main.5dbb5807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48bf23fd.css",
+    "static/js/main.5dbb5807.js"
+  ]
+}
