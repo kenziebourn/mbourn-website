@@ -38,7 +38,7 @@ const Home = () => {
             </div>
 
             <div> 
-                <img src={HeroImage} alt="my profile" className="shadow-md shadow-black object-scale-down h-100 w-60 rounded-2xl duration-300 hover:scale-105" style={{ marginLeft: '100px' }}/>
+                <img src={HeroImage} alt="my profile" className="shadow-md shadow-blackch object-scale-down h-100 w-60 rounded-2xl duration-300 hover:scale-105 hidden md:block" style={{ marginLeft: '100px' }}/>
                 </div>
         </div>
     </div>
