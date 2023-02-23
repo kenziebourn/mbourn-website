@@ -1,5 +1,5 @@
 import React from 'react';
-//import HeroImage from "../assets/heroImage.png";//
+import HeroImage from "../assets/heroImage.png"
 import { BsArrowRight } from 'react-icons/bs';
 import Typewriter from "typewriter-effect";  //type writer effect :D // 
 import { Link } from "react-scroll";
@@ -37,12 +37,12 @@ const Home = () => {
                 </div>
             </div>
 
-            {/*<div> THIS IS THE LANDING PROFILE IMAGE
-                <img src={HeroImage} alt="my profile" className="object-scale-down h-100 w-60 rounded-2xl" />
-                </div>*/}
+            <div> 
+                <img src={HeroImage} alt="my profile" className="shadow-md shadow-black object-scale-down h-100 w-60 rounded-2xl duration-300 hover:scale-105" style={{ marginLeft: '100px' }}/>
+                </div>
         </div>
     </div>
   )
 }
 
-export default Home
+export default Home;
