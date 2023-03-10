@@ -2,7 +2,7 @@ import React from 'react';
 import mancala from '../assets/portfolio/mancala.png';
 import ecommerce from '../assets/portfolio/ecommerce.png';
 import valet from '../assets/portfolio/valet.png';
-
+import exercisetrack from '../assets/portfolio/exercisetrack.png';
 
 // PROJECTS SECTION //
 
@@ -23,6 +23,11 @@ const Portfolio = () => {
         id: 3,
         src: ecommerce,
         href:'https://jiathelabel.pages.dev/',
+      },
+      {
+        id: 4,
+        src: exercisetrack,
+        //href:''//
       },
     ];
   

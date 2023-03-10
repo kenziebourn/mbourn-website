@@ -8,6 +8,7 @@ import tailwind from "../assets/tailwind.png";
 import python from "../assets/python.png";
 import nodejs from "../assets/nodejs.png";
 import postgresql from "../assets/postgresql.png";
+import mongodb from "../assets/mongodb.png";
 
 const Skills = () => {
     const techs = [
@@ -61,6 +62,12 @@ const Skills = () => {
         },
         {
             id: 9,
+            src: mongodb,
+            title: "MongoDB",
+            style: "shadow-green-500",
+        },
+        {
+            id: 10,
             src: postgresql,
             title: "PostgreSQL",
             style: "shadow-blue-500",
