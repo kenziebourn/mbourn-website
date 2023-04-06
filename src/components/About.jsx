@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-
+        
         <p className="text-xl mt-20">
         My name is McKenzie Bourn. I am currently a third-year computer science student at Oregon State University 
         with an interest in emerging technologies such as automotive and 
