@@ -27,7 +27,7 @@ const Home = () => {
                 <div>
                     <Link to="portfolio" smooth duration={500} 
                     className="group text-white w-fit px-6 py-3 my-2
-                    flex items-center rounded-md bg-black border-solid cursor-pointer">
+                    flex items-center border-white border-solid border-2 cursor-pointer">
                         Portfolio
                         <span className="group-hover:rotate-90 duration-300">
                             <BsArrowRight size={15}

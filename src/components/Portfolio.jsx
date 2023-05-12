@@ -1,6 +1,5 @@
 import React from 'react';
 import mancala from '../assets/portfolio/mancala.png';
-import ecommerce from '../assets/portfolio/ecommerce.png';
 import valet from '../assets/portfolio/valet.png';
 import exercisetrack from '../assets/portfolio/exercisetrack.png';
 
@@ -21,11 +20,6 @@ const Portfolio = () => {
       },
       {
         id: 3,
-        src: ecommerce,
-        href:'https://jiathelabel.pages.dev/',
-      },
-      {
-        id: 4,
         src: exercisetrack,
         href:'https://github.com/kenziebourn/Exercise-Tracker/tree/master'
       },
@@ -38,11 +32,11 @@ const Portfolio = () => {
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
-            <p className="text-6xl font-bold inline border-b-4 border-black">
-              Portfolio
+            <p className="text-6xl S inline border-b-4 border-black">
+              PORTFOLIO
             </p>
             <p className="mt-5 text-xl">
-              Projects I've worked on
+              PROJECTS I'VE WORKED ON
             </p>
           </div>
   

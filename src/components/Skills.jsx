@@ -7,7 +7,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import python from "../assets/python.png";
 import nodejs from "../assets/nodejs.png";
-import postgresql from "../assets/postgresql.png";
+import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
 
 const Skills = () => {
@@ -68,8 +68,8 @@ const Skills = () => {
         },
         {
             id: 10,
-            src: postgresql,
-            title: "PostgreSQL",
+            src: mysql,
+            title: "MySQL",
             style: "shadow-blue-500",
         },
       ];
@@ -79,12 +79,12 @@ const Skills = () => {
           name="experience"
           className="w-full h-screen"
         >
-          <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center mt-20 w-full h-full text-white">
+          <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center mt-[200px] w-full h-full text-white">
             <div>
-              <p className="text-6xl font-bold border-b-4 border-black p-2 inline">
-                Experience
+              <p className="text-6xl border-b-4 border-black p-2 inline">
+                EXPERIENCE
               </p>
-              <p className="py-6 text-xl">Technologies I've worked with</p>
+              <p className="py-6 text-xl">TECHNOLOGIES I'VE WORKED WITH</p>
             </div>
     
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center text-white py-8 px-12 sm:px-0">

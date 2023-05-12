@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import mlogo from '../assets/mlogo.png';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -22,26 +21,25 @@ const NavBar = () => {
     {
       id: 4,
       link: "experience",
+      offset: -200
     },
     {
       id: 5,
       link: "contact",
+      offset: -150 // Set the offset value to move the target element up
     },
   ];
 
   return (
-    <div className="sticky top-0 flex justify-between items-center w-full h-20 px-4 text-white bg-black md:fixed">
-      <div>
-        <img src={mlogo} alt="mlogo" className="mx-auto w-12" /> 
-      </div>
+    <div className="sticky top-0 flex justify-between items-center w-full h-20 px-4 text-white md:fixed">
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, offset }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={500} offset={offset}>
               {link}
             </Link>
           </li>
@@ -58,7 +56,7 @@ const NavBar = () => {
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
         bg-gradient-to-b from-[#0e1711] via-[#182a1d] to-[#497d5d] text-white">
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, offset }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
@@ -68,6 +66,7 @@ const NavBar = () => {
                 to={link}
                 smooth
                 duration={500}
+                offset={offset}
               >
                 {link}
               </Link>
