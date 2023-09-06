@@ -9,6 +9,8 @@ import python from "../assets/python.png";
 import nodejs from "../assets/nodejs.png";
 import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
+import graphql from "../assets/graphql.png";
+import docker from "../assets/docker.png";
 
 const Skills = () => {
     const techs = [
@@ -72,6 +74,18 @@ const Skills = () => {
             title: "MySQL",
             style: "shadow-blue-500",
         },
+        {
+          id: 11,
+          src: graphql,
+          title: "GraphQL",
+          style: "shadow-pink-500",
+        },
+        {
+          id: 12,
+          src: docker,
+          title: "Docker",
+          style: "shadow-blue-500",
+        }
       ];
     
       return (
