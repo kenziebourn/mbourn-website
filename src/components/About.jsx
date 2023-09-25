@@ -1,13 +1,10 @@
 import React from "react";
-import profile2 from "../assets/profile2.jpg";
+// import profile2 from "../assets/profile2.jpg";
 
 // ABOUT ME SECTION //
 const About = () => {
   return (
     <div name="about" className="mt-[-1] w-full h-screen text-white flex">
-      <div className="flex items-center justify-center w-1/3">
-        <img src={profile2} alt="Profile" className="object-scale-down h-100 w-60" />
-      </div>
       <div className="max-w-screen-lg p-4 mx-auto w-2/3">
         <div className="pb-0">
           <p className="text-6xl text-center border-b-4 border-black">
