@@ -13,7 +13,7 @@ const About = () => {
         </div>
         
         <p className="text-xl text-center mt-20 ml-5 mr-8">
-          My name is McKenzie Bourn. I am currently a third-year computer science student at Oregon State University 
+          My name is McKenzie Bourn. I am currently a fourth-year computer science student at Oregon State University 
           who loves to explore cutting-edge technologies that shape our world. As I work towards my degree, 
           I am seeking internship opportunities in frontend, backend or full-stack development. I am eager to contribute my knowledge 
           and creativity to real-world projects in order to grow as a technical professional.

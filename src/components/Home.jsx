@@ -35,11 +35,12 @@ const Home = () => {
                         </span>
                     </Link>
                 </div>
+                <p className="text-xs mt-3">Check out my blog <a href="https://blogs.oregonstate.edu/bournm/2023/09/27/why-computer-science/" target="_blank" rel="noopener noreferrer"> <u>here!</u></a></p>
             </div>
-
             <div> 
-                <img src={HeroImage} alt="my profile" className="shadow-md shadow-blackch object-scale-down h-100 w-60 rounded-2xl duration-300 hover:scale-105 hidden md:block" style={{ marginLeft: '100px' }}/>
-                </div>
+                <img src={HeroImage} alt="my profile" className="shadow-md object-scale-down h-100 w-60 rounded-full duration-300 hover:scale-105 hidden md:block" 
+                style={{ marginLeft: '100px', boxShadow: '0px 0px 30px 0px yellow' }}/>
+            </div>
         </div>
     </div>
   )
