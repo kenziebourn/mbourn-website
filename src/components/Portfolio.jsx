@@ -1,6 +1,7 @@
 import React from 'react';
-import jiaai from '../assets/portfolio/jiaai.png'
-import pearllabs from '../assets/portfolio/pearllabs.png'
+import matchiq from '../assets/portfolio/matchiq.png';
+import jiaai from '../assets/portfolio/jiaai.png';
+import pearllabs from '../assets/portfolio/pearllabs.png';
 import mancala from '../assets/portfolio/mancala.png';
 import valet from '../assets/portfolio/valet.png';
 import exercisetrack from '../assets/portfolio/exercisetrack.png';
@@ -13,27 +14,32 @@ const Portfolio = () => {
     const portfolios = [
       {
         id: 1,
+        src: matchiq,
+        href: '',
+      },
+      {
+        id: 2,
         src: jiaai,
         href: 'https://github.com/kenziebourn/Song-Recommender',
       },
       {
-        id: 2,
+        id: 3,
         src: pearllabs,
         href: 'https://github.com/kenziebourn/PearlLabs',
       },
       {
-        id: 3,
+        id: 4,
         src: exercisetrack,
         href:'https://github.com/kenziebourn/Exercise-Tracker/tree/master',
 
       },
       {
-        id: 4,
+        id: 5,
         src: valet,
         href: 'https://github.com/kenziebourn/ValetProgram',
       },
       {
-        id: 5,
+        id: 6,
         src: mancala,
         href:'https://github.com/kenziebourn/Mancala-Game'
       },
@@ -65,29 +71,35 @@ const Portfolio = () => {
                 </a>
                 { id === 1 && (
                   <div className="text-center mt-2">
+                    <p className="text-black font-bold">MatchIQ: Job Hunting AI-Tool</p>
+                    <p className="text-sm text-gray-500">#node.js #mongoDB #django #react.js #docker</p>
+                  </div>
+                )}
+                { id === 2 && (
+                  <div className="text-center mt-2">
                     <p className="text-black font-bold">Song Recommendation App</p>
                     <p className="text-sm text-gray-500">#node.js  #mongoDB  #react.js </p>
                   </div>
                 )}
-                { id === 2 && (
+                { id === 3 && (
                   <div className="text-center mt-2">
                     <p className="text-black font-bold">Boba Shop Database</p>
                     <p className="text-sm text-gray-500">#node.js #mySQL #html/css</p>
                   </div>
                 )}
-                { id === 3 && (
+                { id === 4 && (
                   <div className="text-center mt-2">
                     <p className="text-black font-bold">Exercise Tracker</p>
                     <p className="text-sm text-gray-500">#node.js  #mongoDB  #react.js </p>
                   </div>
                 )}
-                { id === 4 && (
+                { id === 5 && (
                   <div className="text-center mt-2">
                     <p className="text-black font-bold">Valet Program</p>
                     <p className="text-sm text-gray-500">#python</p>
                   </div>
                 )}
-                { id === 5 && (
+                { id === 6 && (
                   <div className="text-center mt-2">
                     <p className="text-black font-bold">Mancala Game</p>
                     <p className="text-sm text-gray-500">#python</p>

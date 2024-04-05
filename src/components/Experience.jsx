@@ -21,7 +21,7 @@ const Skills = () => {
                     dateText="June 2021 – Present"
                     dateInnerStyle={{ background: '#a45aff', color: '#000' }}
                     bodyContainerStyle={{
-                      background: '#ddd',
+                      background: '#FAF9F6',
                       padding: '20px',
                       borderRadius: '8px',
                       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
@@ -35,7 +35,7 @@ const Skills = () => {
                     dateText="June 2023 – Sep 2023"
                     dateInnerStyle={{ background: '#bf8bff', color: '#000' }}
                     bodyContainerStyle={{
-                      background: '#ddd',
+                      background: '#FAF9F6',
                       padding: '20px',
                       borderRadius: '8px',
                       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',

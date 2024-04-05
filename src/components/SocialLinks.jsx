@@ -41,9 +41,8 @@ const SocialLinks = () => {
             Resume <BsPaperclip size={30}/>
             </>
         ),
-        href: '/bournresume.pdf',
+        href: 'https://docs.google.com/document/d/1QB6quKiyeh7TRjhxTuC7_wyXEJ0AF2ziaxqaHl7s0Sw/edit?usp=drive_link',
         style: 'rounded-br-md',
-        download: true,
     },
 ]
 
