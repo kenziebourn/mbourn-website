@@ -42,13 +42,13 @@ const Portfolio = () => {
     return (
       <div
         name="portfolio"
-        className="w-full text-white md:h-screen"
+        className="w-full min-h-screen"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
-            <p className="text-6xl S inline border-b-4 border-black">
+            <h1 className="text-6xl S inline font-bold">
               Projects
-            </p>
+            </h1>
           </div>
   
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

@@ -5,29 +5,20 @@ import "../index.css";
 // ABOUT ME SECTION //
 const About = () => {
   return (
-    <div name="about" className=" w-full h-screen  flex">
-      <div className="max-w-screen-lg p-4 mx-auto w-2/3">
-        <div className="pb-0">
-          <p className="text-6xl text-center border-b-4 border-black">
-            ABOUT ME
-          </p>
-        </div>
-        
-        <p className="text-xl text-center mt-20 ml-5 mr-8">
-          My name is McKenzie Bourn. I am currently a fourth-year computer science student at Oregon State University 
-          who loves to explore cutting-edge technologies that shape our world. As I work towards my degree, 
-          I am seeking internship opportunities in frontend, backend or full-stack development. I am eager to contribute my knowledge 
-          and creativity to real-world projects in order to grow as a technical professional.
-        </p>
+    <div name="about" className=" w-full min-h-screen flex">
+      <div className="max-w-screen-lg p-14">
+        <h1 className="text-6xl font-bold">
+          About Me
+        </h1>
 
-        <br />
-
-        <p className="text-xl text-center ml-5 mr-5">
-        Beyond work, you'll often find me on the tennis court, playing Billiards, or cooking
-        various Asian cuisines. But that's not all—I have a passion for travel and exploration. In March 2023, I embarked 
-        on my first solo trip to Mexico, embracing new experiences and immersing myself in diverse cultures.
-        To me, life is an adventure, and I'm always up for a challenge.
+        <p className="pt-4 text-xl leading-8">
+        Born in China and raised in Colorado Springs, I’ve always been interested in computers ever since games were all but Solitaire and Minesweeper. I am currently a senior at Oregon State University set to graduate in Fall 2024. As I work toward my bachelor’s degree, I am eager to contribute my knowledge and creativity to real world projects in order to grow as a technical professional.
+        <br></br>Beyond work, you’ll find me playing Billiards, running or baking some delicious almond cookies (杏仁曲奇). 
         </p>
+        <a href="https://blogs.oregonstate.edu/bournm/" target="_blank">
+          <button className="text-purple1 bg-purple3 px-6 py-3 my-8 border-2 border-purple1 flex rounded-full hover:bg-purple1 hover:text-purple3 duration-500"
+          >My Blog</button>
+        </a>
       </div>
     </div>
   );

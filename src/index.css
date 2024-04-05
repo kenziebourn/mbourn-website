@@ -12,4 +12,7 @@
     background-image: url('/src/assets/grid.png');
     color:#4a4746;
   }
+  .custom-timeline:before {
+    background-color: #a45aff; /* Replace with your desired color */
+  }
 }

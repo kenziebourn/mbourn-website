@@ -18,7 +18,7 @@ const Home = () => {
                     <img src={memoji_nobg} alt="my profile" className="border-4 border-purple1 object-scale-down h-100 w-60 rounded-full" />
                     <h1 className="py-2 text-6xl sm:text-7xl font-bold">
                         Hi, I'm McKenzie.</h1>
-                    <h2 className=" text-xl max-w-md font-semibold text-purple1 ">
+                    <h2 className=" text-xl max-w-md font-semibold text-purple1 whitespace-nowrap">
                         <Typewriter
                             onInit={(typewriter)=> {
                             typewriter  

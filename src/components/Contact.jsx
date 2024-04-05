@@ -5,17 +5,13 @@ const Contact = () => {
     return (
       <div
         name="contact"
-        className="w-full h-screen p-4 text-white mt-[200px]"
+        className="w-full min-h-screen p-4 text-bold"
       >
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
           <div className="pb-8">
-            <p className="text-6xl inline border-b-4 border-black">
-              CONNECT
-            </p>
-            <p className="py-6 text-xl">I am always eager to take on new challenges and 
-            expand my skill set through a variety of projects. 
-            If you have any questions or know of any opportunities 
-            that could be of benefit, please don't hesitate to contact me below. </p>
+            <h1 className="text-6xl font-bold inline">
+              Connect
+            </h1>
           </div>
   
           <div className=" flex justify-center items-center">
