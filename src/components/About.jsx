@@ -5,7 +5,7 @@ import "../index.css";
 // ABOUT ME SECTION //
 const About = () => {
   return (
-    <div name="about" className="mt-[-1] w-full h-screen text-white flex">
+    <div name="about" className=" w-full h-screen  flex">
       <div className="max-w-screen-lg p-4 mx-auto w-2/3">
         <div className="pb-0">
           <p className="text-6xl text-center border-b-4 border-black">

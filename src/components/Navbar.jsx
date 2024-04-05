@@ -31,7 +31,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="sticky top-0 flex justify-between items-center w-full h-20 px-4 text-white md:fixed">
+    <div className="sticky top-0 flex justify-between items-center w-full h-20 px-4  md:fixed">
 
       <ul className="hidden md:flex">
         {links.map(({ id, link, offset }) => (
