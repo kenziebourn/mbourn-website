@@ -1,28 +1,20 @@
 {
   "files": {
-    "main.css": "/mbourn-website/static/css/main.4140b711.css",
-    "main.js": "/mbourn-website/static/js/main.46d30958.js",
-    "static/media/heroImage.png": "/mbourn-website/static/media/heroImage.b0d14af05711e5024fba.png",
+    "main.css": "/mbourn-website/static/css/main.08bc5d7e.css",
+    "main.js": "/mbourn-website/static/js/main.7e281e52.js",
     "static/media/jiaai.png": "/mbourn-website/static/media/jiaai.e0eb2b16544342794bb2.png",
     "static/media/mancala.png": "/mbourn-website/static/media/mancala.898a8c79b2c740816039.png",
     "static/media/valet.png": "/mbourn-website/static/media/valet.845f1ee26415235ed6bd.png",
     "static/media/pearllabs.png": "/mbourn-website/static/media/pearllabs.57713d82ab79ffd6a9d1.png",
+    "static/media/memoji_nobg.png": "/mbourn-website/static/media/memoji_nobg.e1a7afd5172a978745d2.png",
     "static/media/exercisetrack.png": "/mbourn-website/static/media/exercisetrack.e26d3fa7c04ccc028d32.png",
-    "static/media/mysql.png": "/mbourn-website/static/media/mysql.d807353ed3a9b0a1c6fa.png",
-    "static/media/react.png": "/mbourn-website/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/graphql.png": "/mbourn-website/static/media/graphql.41091f365b819169bd0f.png",
-    "static/media/github.png": "/mbourn-website/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/mongodb.png": "/mbourn-website/static/media/mongodb.259fe79afd0ce9a3dc82.png",
-    "static/media/html.png": "/mbourn-website/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/mbourn-website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/mbourn-website/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/mbourn-website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/matchiq.png": "/mbourn-website/static/media/matchiq.751c66d29489e79b3011.png",
     "index.html": "/mbourn-website/index.html",
-    "main.4140b711.css.map": "/mbourn-website/static/css/main.4140b711.css.map",
-    "main.46d30958.js.map": "/mbourn-website/static/js/main.46d30958.js.map"
+    "main.08bc5d7e.css.map": "/mbourn-website/static/css/main.08bc5d7e.css.map",
+    "main.7e281e52.js.map": "/mbourn-website/static/js/main.7e281e52.js.map"
   },
   "entrypoints": [
-    "static/css/main.4140b711.css",
-    "static/js/main.46d30958.js"
+    "static/css/main.08bc5d7e.css",
+    "static/js/main.7e281e52.js"
   ]
 }
