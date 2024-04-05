@@ -1,4 +1,4 @@
-Welcome to my personal website which I have built using React JS and JS frameworks (Tailwind CSS). 
+Welcome to my personal website which I have built using React JS with Tailwind CSS. 
 
 On this website, you will find information about my background and experience, as well as a showcase of my skills and accomplishments. 
 
