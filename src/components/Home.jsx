@@ -1,4 +1,5 @@
 import React from 'react';
+import "../index.css";
 import HeroImage from "../assets/heroImage.png"
 import { BsArrowRight } from 'react-icons/bs';
 import Typewriter from "typewriter-effect";  //type writer effect :D // 

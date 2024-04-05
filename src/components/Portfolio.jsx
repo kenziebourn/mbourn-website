@@ -4,6 +4,7 @@ import pearllabs from '../assets/portfolio/pearllabs.png'
 import mancala from '../assets/portfolio/mancala.png';
 import valet from '../assets/portfolio/valet.png';
 import exercisetrack from '../assets/portfolio/exercisetrack.png';
+import "../index.css";
 
 // PROJECTS SECTION //
 
@@ -46,10 +47,7 @@ const Portfolio = () => {
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
             <p className="text-6xl S inline border-b-4 border-black">
-              PORTFOLIO
-            </p>
-            <p className="mt-5 text-xl">
-              PROJECTS I'VE WORKED ON
+              Projects
             </p>
           </div>
   

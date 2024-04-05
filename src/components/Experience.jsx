@@ -11,6 +11,7 @@ import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
 import graphql from "../assets/graphql.png";
 import docker from "../assets/docker.png";
+import "../index.css";
 
 const Skills = () => {
     const techs = [
