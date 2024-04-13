@@ -8,12 +8,12 @@ const About = () => {
     <div name="about" className=" w-full min-h-screen flex">
       <div className="max-w-screen-lg p-14">
         <h1 className="text-6xl font-bold">
-          About Me
+          <span id="McKenzie">About Me</span>
         </h1>
 
         <p className="pt-4 text-xl leading-8">
         Born in China and raised in Colorado Springs, I’ve always been interested in computers ever since games were all but Solitaire and Minesweeper. I am currently a senior at Oregon State University set to graduate in Fall 2024. As I work toward my bachelor’s degree, I am eager to contribute my knowledge and creativity to real world projects in order to grow as a technical professional.
-        <br></br>Beyond work, you’ll find me playing Billiards, running or baking some delicious almond cookies (杏仁曲奇). 
+        <br></br>Beyond work, you’ll find me playing Billiards, running or baking some delicious almond cookies. 
         </p>
         <a href="https://blogs.oregonstate.edu/bournm/" target="_blank">
           <button className="text-purple1 bg-purple3 px-6 py-3 my-8 border-2 border-purple1 flex rounded-full hover:bg-purple1 hover:text-purple3 duration-500"

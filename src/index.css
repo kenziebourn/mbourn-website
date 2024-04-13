@@ -12,6 +12,10 @@
     background-image: url('/src/assets/grid.png');
     color:#4a4746;
   }
+  #McKenzie {
+    background: linear-gradient(to bottom, transparent 50%,
+    #fce041d5 50%);
+  }
   .mySwiper .swiper {
     width: 100%;
     height: 100%;

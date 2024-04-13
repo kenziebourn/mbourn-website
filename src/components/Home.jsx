@@ -16,9 +16,10 @@ const Home = () => {
             <div className="flex flex-col justify-center h-full">
                 <div className="flex flex-col justify-center items-center h-full"> 
                     <img src={memoji_nobg} alt="my profile" className="border-4 border-purple1 object-scale-down h-100 w-60 rounded-full" />
-                    <h1 className="py-2 text-6xl sm:text-7xl font-bold">
-                        Hi, I'm McKenzie.</h1>
-                    <h2 className=" text-xl max-w-md font-semibold text-purple1 whitespace-nowrap">
+                    <h1 className="pt-2 pb-8 text-6xl sm:text-7xl font-bold">
+                        Hi, I'm <span id="McKenzie">McKenzie</span>.
+                    </h1>
+                    <h2 className="text-xl max-w-md font-semibold text-purple1 whitespace-nowrap">
                         <Typewriter
                             onInit={(typewriter)=> {
                             typewriter  

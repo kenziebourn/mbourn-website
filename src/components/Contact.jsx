@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="flex flex-col p-4 justify-center text-center max-w-screen-lg mx-auto h-full">
           <div className="pb-8">
             <h1 className="text-6xl font-bold inline">
-              Connect
+              <span id="McKenzie">Connect</span>
             </h1>
           </div>
   

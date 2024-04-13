@@ -55,7 +55,7 @@ const NavBar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
-        bg-gradient-to-b from-[#0e1711] via-[#182a1d] to-[#497d5d] text-white">
+        bg-gradient-to-b from-purple1 via-purple2 to-purple3 text-white">
           {links.map(({ id, link, offset }) => (
             <li
               key={id}

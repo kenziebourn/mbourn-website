@@ -53,7 +53,7 @@ const Portfolio = () => {
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
             <h1 className="text-6xl S inline font-bold">
-              Projects
+              <span id="McKenzie">Projects</span>
             </h1>
           </div>
   

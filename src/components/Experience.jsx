@@ -12,7 +12,7 @@ const Skills = () => {
           <div className="max-w-screen-lg p-14">
             <div>
               <h1 className="text-6xl font-bold">
-                Experience
+              <span id="McKenzie">Experience</span>
               </h1>
               <div className="flex justify-center items-center">
                 <Timeline lineColor={'#a45aff'}>

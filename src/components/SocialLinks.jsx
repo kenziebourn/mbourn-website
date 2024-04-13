@@ -41,7 +41,7 @@ const SocialLinks = () => {
             Resume <BsPaperclip size={30}/>
             </>
         ),
-        href: 'https://docs.google.com/document/d/1QB6quKiyeh7TRjhxTuC7_wyXEJ0AF2ziaxqaHl7s0Sw/edit?usp=drive_link',
+        href: 'https://docs.google.com/document/d/1QB6quKiyeh7TRjhxTuC7_wyXEJ0AF2ziaxqaHl7s0Sw/edit?usp=sharing',
         style: 'rounded-br-md',
     },
 ]
