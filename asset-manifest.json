@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mbourn-website/static/css/main.08bc5d7e.css",
-    "main.js": "/mbourn-website/static/js/main.7e281e52.js",
+    "main.css": "/mbourn-website/static/css/main.e63d0034.css",
+    "main.js": "/mbourn-website/static/js/main.698810a7.js",
     "static/media/jiaai.png": "/mbourn-website/static/media/jiaai.e0eb2b16544342794bb2.png",
     "static/media/mancala.png": "/mbourn-website/static/media/mancala.898a8c79b2c740816039.png",
     "static/media/valet.png": "/mbourn-website/static/media/valet.845f1ee26415235ed6bd.png",
@@ -10,11 +10,11 @@
     "static/media/exercisetrack.png": "/mbourn-website/static/media/exercisetrack.e26d3fa7c04ccc028d32.png",
     "static/media/matchiq.png": "/mbourn-website/static/media/matchiq.751c66d29489e79b3011.png",
     "index.html": "/mbourn-website/index.html",
-    "main.08bc5d7e.css.map": "/mbourn-website/static/css/main.08bc5d7e.css.map",
-    "main.7e281e52.js.map": "/mbourn-website/static/js/main.7e281e52.js.map"
+    "main.e63d0034.css.map": "/mbourn-website/static/css/main.e63d0034.css.map",
+    "main.698810a7.js.map": "/mbourn-website/static/js/main.698810a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bc5d7e.css",
-    "static/js/main.7e281e52.js"
+    "static/css/main.e63d0034.css",
+    "static/js/main.698810a7.js"
   ]
 }
