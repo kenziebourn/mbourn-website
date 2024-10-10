@@ -48,6 +48,23 @@ const Skills = () => {
                       where I contributed to the Discogs API and played a key role in optimizing data querying and retrieval processes.
                     </p>
                   </TimelineItem>
+                  <TimelineItem
+                    key="001"
+                    dateText="June 2024 – September 2024"
+                    dateInnerStyle={{ background: '#a45aff', color: '#000' }}
+                    bodyContainerStyle={{
+                      background: '#FAF9F6',
+                      padding: '20px',
+                      borderRadius: '8px',
+                      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                    }}
+                  >
+                    <h3 className="text-purple1">Trimble</h3>
+                    <h4 className="text-purple2">Software Reliability Engineer</h4>
+                    <p>
+                      As an SRE intern, I worked on implementing a monitoring solution for the usage of certain infrastructure across the division's Kubernetes clusters. I worked specifically with GH workflows, Terraform, New Relic and Google webhooks. 
+                    </p>
+                  </TimelineItem>
                 </Timeline>
               </div>
             </div>
