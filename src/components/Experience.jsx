@@ -18,8 +18,22 @@ const Skills = () => {
                 <Timeline lineColor={'#a45aff'}>
                   <TimelineItem
                     key="001"
-                    dateText="June 2021 – December 2024"
+                    dateText="March 2024 – Present"
                     dateInnerStyle={{ background: '#a45aff', color: '#000' }}
+                    bodyContainerStyle={{
+                      background: '#FAF9F6',
+                      padding: '20px',
+                      borderRadius: '8px',
+                      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                    }}
+                  >
+                    <h3 className="text-purple1">Medallia</h3>
+                    <h4 className="text-purple2">Site Reliability Engineer I</h4>
+                  </TimelineItem>
+                  <TimelineItem
+                    key="001"
+                    dateText="June 2021 – Dec 2024"
+                    dateInnerStyle={{ background: '#bf8bff', color: '#000' }}
                     bodyContainerStyle={{
                       background: '#FAF9F6',
                       padding: '20px',
@@ -32,8 +46,8 @@ const Skills = () => {
                   </TimelineItem>
                   <TimelineItem
                     key="001"
-                    dateText="June 2024 – September 2024"
-                    dateInnerStyle={{ background: '#a45aff', color: '#000' }}
+                    dateText="June 2024 – Sep 2024"
+                    dateInnerStyle={{ background: '#bf8bff', color: '#000' }}
                     bodyContainerStyle={{
                       background: '#FAF9F6',
                       padding: '20px',
