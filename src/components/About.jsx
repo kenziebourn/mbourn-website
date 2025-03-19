@@ -12,7 +12,8 @@ const About = () => {
         </h1>
 
         <p className="pt-4 text-xl leading-8">
-        Born in China and raised in Colorado Springs, I’ve always been interested in computers ever since games were all but Solitaire and Minesweeper. I am currently a senior at Oregon State University set to graduate in Fall 2024. As I work toward my bachelor’s degree, I am eager to contribute my knowledge and creativity to real world projects in order to grow as a technical professional.
+        Born in China and raised in Colorado Springs, I’ve always been interested in computers ever since games were all but Solitaire and Minesweeper.
+        I recently completed my bachelors in Computer Science at Oregon State University and am working as a Site Reliability Engineer I at Medallia.
         <br></br>Beyond work, you’ll find me playing Billiards, making jewelry, running or cooking various Chinese dishes. 
         </p>
         <a href="https://blogs.oregonstate.edu/bournm/" target="_blank">
