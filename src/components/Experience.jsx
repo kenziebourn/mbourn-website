@@ -18,7 +18,7 @@ const Skills = () => {
                 <Timeline lineColor={'#a45aff'}>
                   <TimelineItem
                     key="001"
-                    dateText="March 2024 – Present"
+                    dateText="March 2025 – Present"
                     dateInnerStyle={{ background: '#a45aff', color: '#000' }}
                     bodyContainerStyle={{
                       background: '#FAF9F6',
