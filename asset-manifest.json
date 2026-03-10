@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mbourn-website/static/css/main.6d8beb0f.css",
-    "main.js": "/mbourn-website/static/js/main.c3d26cf6.js",
+    "main.js": "/mbourn-website/static/js/main.97863416.js",
     "static/media/jiaai.png": "/mbourn-website/static/media/jiaai.e0eb2b16544342794bb2.png",
     "static/media/mancala.png": "/mbourn-website/static/media/mancala.898a8c79b2c740816039.png",
     "static/media/valet.png": "/mbourn-website/static/media/valet.845f1ee26415235ed6bd.png",
@@ -11,10 +11,10 @@
     "static/media/matchiq.png": "/mbourn-website/static/media/matchiq.751c66d29489e79b3011.png",
     "index.html": "/mbourn-website/index.html",
     "main.6d8beb0f.css.map": "/mbourn-website/static/css/main.6d8beb0f.css.map",
-    "main.c3d26cf6.js.map": "/mbourn-website/static/js/main.c3d26cf6.js.map"
+    "main.97863416.js.map": "/mbourn-website/static/js/main.97863416.js.map"
   },
   "entrypoints": [
     "static/css/main.6d8beb0f.css",
-    "static/js/main.c3d26cf6.js"
+    "static/js/main.97863416.js"
   ]
 }
