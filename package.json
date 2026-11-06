@@ -10,10 +10,10 @@
     "glitch-text": "^1.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
+    "react-icons": "^5.7.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
-    "swiper": "^11.1.0",
+    "swiper": "^14.4.0",
     "typewriter-effect": "^2.19.0",
     "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "^2.1.4"
@@ -47,6 +47,6 @@
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "nodemon": "^3.1.0",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^4.3.4"
   }
 }
