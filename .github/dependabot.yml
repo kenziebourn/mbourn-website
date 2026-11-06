@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5 
+
+    groups:
+      react-core:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "react-scripts"
+      testing-libraries:
+        patterns:
+          - "@testing-library/*"
+      styling-and-ui:
+        patterns:
+          - "tailwindcss"
+          - "react-icons"
+          - "swiper"
+          - "vertical-timeline-component-for-react"
